@@ -64,6 +64,7 @@ namespace T03._Moving_Target
 
                     // index = 3, radius = 2
                     // 1 2 3 4 5 6 7 8
+
                     int leftIndexCount = index - range; // 1
                     int rightIndexCount = index + range; // 5
 
@@ -75,7 +76,21 @@ namespace T03._Moving_Target
                         continue;
                     }
 
-                    movingTargets.RemoveRange(leftIndexCount, rightIndexCount);
+                    //movingTargets.RemoveRange(leftIndexCount, rightIndexCount - 1);
+
+
+                    // 11 22 33 44
+                    // leftIndex = 1
+
+                    for (int i = leftIndexCount; i <= index; i++)
+                    {
+                        movingTargets.RemoveAt(leftIndexCount);
+                    }
+
+                    for (int i = leftIndexCount; i < index; i++)
+                    {
+                        movingTargets.RemoveAt(index - 1);
+                    }
                 }
 
                 command = Console.ReadLine();
