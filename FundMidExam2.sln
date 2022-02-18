@@ -5,11 +5,17 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Numbers", "T03. Numbers\T03. Numbers.csproj", "{E210E8E5-3A02-4C2F-A14D-059A6CC034EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01. Counter-Strike", "T01. Counter-Strike\T01. Counter-Strike.csproj", "{13229027-772A-4D9C-985C-33191FCC3379}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T01. Counter-Strike", "T01. Counter-Strike\T01. Counter-Strike.csproj", "{13229027-772A-4D9C-985C-33191FCC3379}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02. Shoot for the Win", "T02. Shoot for the Win\T02. Shoot for the Win.csproj", "{5F75E45B-ED91-4A9A-A9C3-1FC3451C1EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T02. Shoot for the Win", "T02. Shoot for the Win\T02. Shoot for the Win.csproj", "{5F75E45B-ED91-4A9A-A9C3-1FC3451C1EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03. Moving Target", "T03. Moving Target\T03. Moving Target.csproj", "{C4D4F657-2494-4258-BAA4-29F428B77E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T03. Moving Target", "T03. Moving Target\T03. Moving Target.csproj", "{C4D4F657-2494-4258-BAA4-29F428B77E41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T01. Guinea Pig", "T01. Guinea Pig\T01. Guinea Pig.csproj", "{06D7D095-FE64-4B96-A8B6-F92F7FD996EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T02. Shopping List", "T02. Shopping List\T02. Shopping List.csproj", "{11782F67-D214-4711-BF48-6E5574168D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03. Heart Delivery", "T03. Heart Delivery\T03. Heart Delivery.csproj", "{2EB3E69A-F18C-4D36-9AF1-44EC408341BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{C4D4F657-2494-4258-BAA4-29F428B77E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4D4F657-2494-4258-BAA4-29F428B77E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4D4F657-2494-4258-BAA4-29F428B77E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D7D095-FE64-4B96-A8B6-F92F7FD996EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D7D095-FE64-4B96-A8B6-F92F7FD996EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D7D095-FE64-4B96-A8B6-F92F7FD996EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D7D095-FE64-4B96-A8B6-F92F7FD996EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11782F67-D214-4711-BF48-6E5574168D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11782F67-D214-4711-BF48-6E5574168D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11782F67-D214-4711-BF48-6E5574168D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11782F67-D214-4711-BF48-6E5574168D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB3E69A-F18C-4D36-9AF1-44EC408341BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB3E69A-F18C-4D36-9AF1-44EC408341BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB3E69A-F18C-4D36-9AF1-44EC408341BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB3E69A-F18C-4D36-9AF1-44EC408341BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
